@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1099002314928",
+    "firebase_url": "https://serviceapp-9fed9.firebaseio.com",
+    "project_id": "serviceapp-9fed9",
+    "storage_bucket": "serviceapp-9fed9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099002314928:android:f15e1500b5646e7c",
+        "android_client_info": {
+          "package_name": "com.app.service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099002314928-f6v0ja9q24hd3ne9lqnnrhev26gbfjim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.service",
+            "certificate_hash": "8ee083850db174bfd61e41c443aa1d11b6bcbaa3"
+          }
+        },
+        {
+          "client_id": "1099002314928-k2ceuo6k1pkg3fr6neb1s2ehkr36vfqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN_IeuRNoE4-6BxK-MCO7HyNRR-C0-gCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099002314928-ioe2fr4b1trcjd3poa0r1rce5bfbkluk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1099002314928-4ohklcjnk73pcg6v3ncl28phfmsqjp6s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.WhyteCretions.UNIServiceApp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

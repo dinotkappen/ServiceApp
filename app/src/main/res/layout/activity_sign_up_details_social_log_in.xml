@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical"
+    tools:context=".Activity.SignUpDetailsSocialLogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose business type to "
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="continue login "
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edt_customertype"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/gray_rectangle"
+            android:focusable="false"
+            android:gravity="center"
+            android:drawableEnd="@mipmap/arrow_down"
+            android:drawableRight="@mipmap/arrow_down"
+            android:drawablePadding="15dp"
+            android:hint="Choose Business Type"
+            android:padding="10dp" />
+        <LinearLayout
+            android:id="@+id/linear_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edt_email_fb"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/gray_rectangle"
+                android:gravity="center"
+                android:singleLine="true"
+                android:hint="Email"
+                android:padding="10dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_Next_SocaialDetails"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="22dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/btn_green"
+            android:gravity="center"
+            android:text="LOGIN" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

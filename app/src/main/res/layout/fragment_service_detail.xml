@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Fragment.ServiceDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/bg2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_serviceDtl_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gray_rectangle"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_Desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="10"
+                            android:textColor="@color/colorBlack"/>
+                        <Button
+                            android:id="@+id/btShowmore"
+                            android:layout_width="wrap_content"
+                            android:textAllCaps="false"
+                            android:layout_gravity="right"
+                            android:textColor="@color/colorPrimary"
+                            android:background="@android:color/transparent"
+                            android:layout_height="wrap_content" />
+                        <LinearLayout
+                            android:id="@+id/linearRadio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp">
+                            <CheckBox
+                                android:id="@+id/checkEmergencyService"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/emergency_service" />
+
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/txtEmergencyServicePrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginTop="8dp"/>
+                        <TextView
+                            android:id="@+id/txtPaymentMethod"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack" />
+                        <TextView
+                            android:id="@+id/txtEmergencyServiceMsg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginTop="8dp"/>
+
+                        <EditText
+                            android:id="@+id/edt_Slct_Date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/gray_rectangle"
+                            android:drawableLeft="@drawable/ic_date"
+                            android:drawableRight="@mipmap/arrow_down"
+                            android:drawablePadding="15dp"
+                            android:focusable="false"
+                            android:padding="14dp"
+                            android:singleLine="true"
+                            android:text="@string/select_date"
+                            android:textColor="@color/colorBlack"
+                            android:textColorHint="@color/colorHint"
+                            android:textSize="14dp" />
+
+                        <EditText
+                            android:id="@+id/edt_Slct_Time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/gray_rectangle"
+                            android:drawableLeft="@drawable/ic_time"
+                            android:drawableRight="@mipmap/arrow_down"
+                            android:drawablePadding="15dp"
+                            android:focusable="false"
+                            android:padding="14dp"
+                            android:singleLine="true"
+                            android:text="@string/select_time"
+                            android:textColor="@color/colorBlack"
+                            android:textColorHint="@color/colorHint"
+                            android:textSize="14dp" />
+
+
+
+                        <Button
+                            android:id="@+id/btn_nxt_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:layout_marginBottom="30dp"
+                            android:background="@drawable/btn_green"
+                            android:text="@string/next"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

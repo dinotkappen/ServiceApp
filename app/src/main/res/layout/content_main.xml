@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:background="@drawable/toolbar_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="18dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!-- Banner Layout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    app:centered="true" />
+
+                <com.viewpagerindicator.CirclePageIndicator
+                    android:id="@+id/indicator_banner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="120dp"
+                    app:centered="true"
+                    app:fillColor="@color/colorPrimary"
+                    app:pageColor="@color/colorWhite"
+                    app:snap="false" />
+            </RelativeLayout>
+            <!--  android:layout_below="@id/pager_banner"-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="0.65"
+            android:background="@drawable/gray_rectangle"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:clipToPadding="false"
+                app:tabGravity="fill"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed" />
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator_items"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                app:fillColor="@color/colorWhite"
+                app:pageColor="@color/colorAccent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

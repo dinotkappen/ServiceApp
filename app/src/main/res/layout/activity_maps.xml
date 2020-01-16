@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!--<fragment-->
+        <!--android:id="@+id/place_autocomplete_fragment"-->
+        <!--android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        tools:context=".Activity.MapsActivity">
+
+
+
+
+    </fragment>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:focusable="false"
+                android:textColor="@color/colorBlack"
+                android:inputType="textNoSuggestions"
+                android:hint="City is not available"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/edt_adrz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:focusable="false"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorBlack"
+                android:inputType="textNoSuggestions"
+                android:hint="Address is not available"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/edt_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:focusable="false"
+                android:layout_marginTop="4dp"
+                android:hint="Location is not available"
+                android:textColor="@color/colorBlack"
+                android:inputType="textNoSuggestions"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/edt_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:focusable="false"
+                android:layout_marginTop="4dp"
+                android:hint="Postal Code is not available"
+                android:inputType="textNoSuggestions"
+                android:textColor="@color/colorBlack"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_nxt_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16dp"
+            android:background="@drawable/btn_green"
+            android:text="NEXT"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear_single_items"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="110dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+    <!--
+    grid items for RecyclerView
+    -->
+    <ImageView
+        android:id="@+id/menu_Icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:src="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/menu_Name"
+        android:layout_width="match_parent"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:text="ABCD"
+        android:textSize="12dp"
+        android:textColor="#2c57a7" />
+</LinearLayout>

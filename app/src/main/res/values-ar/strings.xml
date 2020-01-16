@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Servicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الإعدادات</string>
+
+    <string name="facebook_app_id">2395094647264536</string>
+    <string name="fb_login_protocol_scheme">fb2395094647264536</string>
+
+
+
+    <string name="validEmail"> يرجى إدخال بريد إلكتروني صالح</string>
+    <string name="validPhone">>من فضلك ادخل رقم الهاتف</string>
+    <string name="validPassword">لا يمكن أن تكون كلمة المرور فارغ</string>
+    <string name="validPwdLength">يجب أن تتكون كلمات المرور من 8 أحرف على الأقل</string>
+    <string name="validConfrmPwd"> تأكيد كلمة المرور لا يمكن أن يكون فارغا</string>
+    <string name="validPwdMissMatch">كلمة المرور غير مطابقة</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="change">تغيي </string>
+    <string name="emergency_service">خدمات الطوارئ</string>
+    <string name="menu_home">الصفحة الرئيسية</string>
+    <string name="Notification">إخطارات</string>
+    <string name="ChangeLanguage">غير اللغة</string>
+    <string name="Cancel">إلغاء</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="SelectTimeSlot">وقت الخدمة</string>
+    <string name="Create">Create</string>
+    <string name="ReviewQuestion">How satisfied are you with Servicio?</string>
+    <string name="NewAccount">a New ACCOUNT</string>
+    <string name="AlreadyHaveAccount">هل لديك حساب مسبق؟</string>
+    <string name="DontHaveAccount">Don"'"t have an account?</string>
+    <string name="Sign_out">خروج</string>
+    <string name="Name">الإسم</string>
+    <string name="Email">البريد الإلكتروني</string>
+    <string name="Phone">هاتف</string>
+    <string name="Password">كلمه السر</string>
+    <string name="ConfirmPassword">تأكيد كلمة المرور</string>
+    <string name="Sign_up">Signup</string>
+    <string name="PrivacyWarning">By using Starlink, you agree to Starlink&#38;s
+    Terms of Use and Privacy Policy</string>
+    <string name="Welcome">Welcome</string>
+    <string name="to_continue">to continue</string>
+    <string name="username">User Name / Email</string>
+
+    <string name="SendNow">ارسل الان</string>
+    <string name="NewUser">New User?</string>
+    <string name="Myprofile">My profile</string>
+    <string name="ChangePwdSmall">غير كلمة المرور الخاصة بك</string>
+    <string name="OldPwd">Old Password</string>
+    <string name="NewPwd">كلمة السر الجديدة </string>
+    <string name="CnfrmNewpwd">تأكيد كلمة المرور</string>
+    <string name="ChangePwd">غير كلمة المرور الخاصة بك</string>
+    <string name="Add_More_Service">Add More Service</string>
+    <string name="Book_Now">Book Now</string>
+    <string name="ConfirmBooking">Confirm Booking</string>
+    <string name="Apply">Apply</string>
+    <string name="Discount">Discount : </string>
+    <string name="Total">Total : </string>
+    <string name="Qar">ريال قطري</string>
+    <string name="CodeToast">Code copyed</string>
+    <string name="Reviews">Reviews</string>
+    <string name="ReviewCmntValidation">Please insert something from your mind.</string>
+    <string name="Payment">Payment : </string>
+    <string name="CashAfterService">Cash after service </string>
+    <string name="Review">Reviews</string>
+    <string name="CouponCodeHint">Enter coupon code</string>
+    <string name="Forgotpwd">هل نسيت كلمة السرّ الخاصة بك؟</string>
+
+    <string name="ValiDate">Please select a valid date</string>
+    <string name="NoData">No Data</string>
+    <string name="Copy">Copy</string>
+    <string name="Next">التالى</string>
+    <string name="Submit">Submit</string>
+    <string name="CancelBooking">CANCEL BOOKING</string>
+    <string name="Skip">Skip</string>
+    <string name="LogIn">تسجيل الدخول</string>
+    <string name="Update">تحديث</string>
+    <string name="BookService">Book a Service</string>
+    <string name="validName">الرجاء ادخال اسما صحيحا</string>
+    <string name="LogInFB">Login with Facebook</string>
+    <string name="Continue">المتابعة</string>
+    <string name="LogInGoogle">Login with Google Plus</string>
+    <string name="SpecialRequest">Special Request</string>
+    <string name="Upcoming">UPCOMING</string>
+    <string name="Past">PAST</string>
+    <string name="Ok">حسنا</string>
+    <string name="Success">Success</string>
+    <string name="ReviewSuccess">Your review has been submitted.</string>
+    <string name="Search">بحث</string>
+    <string name="Done">فعله</string>
+    <string name="ChoodeService">Please choose a service</string>
+    <string name="title_location_permission">title_location_permission</string>
+    <string name="text_location_permission">text_location_permission</string>
+    <string name="Book_Appoinment">Book Appoinment</string>
+    <string name="web_client_id">366524374212-rsct6jg4ke04vgj8f2llailfrd36fj2s.apps.googleusercontent.com</string>
+    <string name="About">عنا</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="or">أو</string>
+    <string name="sign_in_with_facebook">تسجيل الدخول باستخدام Facebook</string>
+    <string name="sign_in_with_gmail">تسجيل الدخول باستخدام Gmail</string>
+    <string name="don_t_you_have_an_account_sign_up">ليس لديك حساب؟ سجل</string>
+    <string name="register">تسجيل</string>
+    <string name="customer_type">Customer type</string>
+    <string name="create_a_new_account">إنشاء حساب جديد</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="forgot_password">هل نسيت كلمة السرّ الخاصة بك؟</string>
+    <string name="we_just_need_your_registered_email_address">we just need your registered email address</string>
+    <string name="to_send_you_password_reset">to send you password reset</string>
+    <string name="reset_password">إعادة ضبط كلمة السر</string>
+    <string name="select_time">وقت الخدمة</string>
+    <string name="select_date">حدد تاريخ</string>
+    <string name="sign_in_to_your_account">مرحبا بكم، يرجى تسجيل الدخول إلى حسابكم</string>
+    <string name="services">خدمات</string>
+    <string name="my_receipt">فواتيري</string>
+    <string name="change_country">تغيير الدولة</string>
+    <string name="my_account">حسابي</string>
+    <string name="consultation_charge_emergency">رسوم التشاور لتكلفة خدمة الطوارئ: </string>
+    <string name="request_summary">طلب ملخص</string>
+    <string name="descripton">وصف</string>
+    <string name="attachment">المرفق</string>
+    <string name="cash_after_service">النقدية بعد الخدمة</string>
+    <string name="card_payment">بطاقة الائتمان</string>
+    <string name="proceed">تقدم</string>
+    <string name="thank_you">شكراً لكم </string>
+    <string name="your_service_registered_successfully">تم تسجيل خدمتك بنجاح، وسوف نتواصل معك عن قريب</string>
+    <string name="back_to_home_page">العودة إلى الصفحة الرئيسية</string>
+    <string name="select_your_country">اختر بلدك</string>
+    <string name="next">التالى</string>
+    <string name="AgreeTC"><u>أوافق على الشروط والأحكام</u></string>
+    <string name="TermsCoditions"> البنود و الظروف</string>
+    <string name="select_language">Select Language</string>
+
+
+</resources>

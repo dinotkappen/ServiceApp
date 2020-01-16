@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">SERVICIO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">552170978609059</string>
+    <string name="fb_login_protocol_scheme">7443d78479e4999328dfc142bba331fe</string>
+    <string name="contact_us">Contact us</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="Notification">Notifications</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="change">Change</string>
+    <string name="emergency_service">Emergency Service</string>
+    <string name="menu_home">Home</string>
+    <string name="SelectTimeSlot">Please choose a time slot</string>
+    <string name="Create">Create</string>
+    <string name="ReviewQuestion">How satisfied are you with Click?</string>
+    <string name="NewAccount">a New ACCOUNT</string>
+    <string name="AlreadyHaveAccount">Already have an account?</string>
+    <string name="DontHaveAccount">Don"'"t have an account?</string>
+    <string name="Sign_in">Sign in</string>
+    <string name="Sign_out">SIGN OUT</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Sign_up">Signup</string>
+    <string name="Continue">Continue</string>
+    <string name="PrivacyWarning">By using Starlink, you agree to Starlink&#38;s
+    Terms of Use and Privacy Policy</string>
+    <string name="Welcome">Welcome</string>
+    <string name="to_continue">to continue</string>
+    <string name="username">User Name / Email</string>
+
+    <string name="SendNow">SEND NOW</string>
+    <string name="NewUser">New User?</string>
+    <string name="Myprofile">My profile</string>
+    <string name="ChangePwdSmall">Change Password</string>
+    <string name="OldPwd">Old Password</string>
+    <string name="NewPwd">New password </string>
+    <string name="CnfrmNewpwd">Confirm Password</string>
+    <string name="ChangePwd">CHANGE PASWORD</string>
+    <string name="Add_More_Service">Add More Service</string>
+    <string name="Book_Now">Book Now</string>
+    <string name="ConfirmBooking">Confirm Booking</string>
+    <string name="Apply">Apply</string>
+    <string name="Discount">Discount : </string>
+    <string name="Total">Total : </string>
+    <string name="Qar">QAR</string>
+    <string name="CodeToast">Code copyed</string>
+    <string name="Reviews">Reviews</string>
+    <string name="ReviewCmntValidation">Please insert something from your mind.</string>
+    <string name="Payment">Payment : </string>
+    <string name="CashAfterService">Cash after service </string>
+    <string name="Review">Reviews</string>
+    <string name="CouponCodeHint">Enter coupon code</string>
+    <string name="Forgotpwd">Forgot Pasword?</string>
+
+    <string name="ValiDate">Please select a valid date</string>
+    <string name="NoData">No Data</string>
+    <string name="Copy">Copy</string>
+    <string name="Next">Next</string>
+    <string name="Submit">Submit</string>
+    <string name="CancelBooking">CANCEL BOOKING</string>
+    <string name="Skip">Skip</string>
+    <string name="LogIn">Login</string>
+    <string name="Update">UPDATE</string>
+    <string name="BookService">Book a Service</string>
+    <string name="Cancel">Cancel</string>
+
+
+    <string name="validName">Please enter  name</string>
+    <string name="validEmail"> Please enter  email</string>
+    <string name="validPhone">Please enter  phone</string>
+    <string name="validPassword">Please enter  password</string>
+    <string name="validPwdLength">You must have 8 characters in your password</string>
+    <string name="validConfrmPwd">Please enter the confirm password</string>
+    <string name="validPwdMissMatch">Password mismatch</string>
+    <string name="LogInFB">Login with Facebook</string>
+    <string name="LogInGoogle">Login with Google Plus</string>
+
+    <string name="SpecialRequest">Special Request</string>
+    <string name="Upcoming">UPCOMING</string>
+    <string name="Past">PAST</string>
+    <string name="Ok">OK</string>
+    <string name="Success">Success</string>
+    <string name="ReviewSuccess">Your review has been submitted.</string>
+    <string name="Search">Search</string>
+
+    <string name="Done">Done</string>
+    <string name="ChoodeService">Please choose a service</string>
+
+    <string name="title_location_permission">title_location_permission</string>
+    <string name="text_location_permission">text_location_permission</string>
+    <string name="Book_Appoinment"> Book Appoinment</string>
+
+    <string name="web_client_id">366524374212-rsct6jg4ke04vgj8f2llailfrd36fj2s.apps.googleusercontent.com</string>
+
+    <string name="About">About</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="or">Or</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="sign_in_with_gmail">Sign in with Gmail</string>
+    <string name="don_t_you_have_an_account_sign_up">Don\'t you have an account? Sign Up</string>
+    <string name="register">REGISTER</string>
+    <string name="customer_type">Customer type</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="we_just_need_your_registered_email_address">we just need your registered email address</string>
+    <string name="to_send_you_password_reset">to send you password reset</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="next">NEXT</string>
+    <string name="sign_in_to_your_account">Welcome Sign In To Your Account</string>
+    <string name="services">Services</string>
+    <string name="my_receipt">My Receipt</string>
+    <string name="change_country">Change Country</string>
+    <string name="my_account">My Account</string>
+    <string name="consultation_charge_emergency">Consultation charge with Emergency Service cost:</string>
+    <string name="request_summary">Request Summary</string>
+    <string name="descripton">Descripton</string>
+    <string name="attachment">Attachment</string>
+    <string name="cash_after_service">Cash After Service</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="proceed">PROCEED</string>
+    <string name="thank_you">Thank you !</string>
+    <string name="your_service_registered_successfully">Your service registered successfully we will catch you soon</string>
+    <string name="back_to_home_page">BACK TO HOME PAGE</string>
+    <string name="select_your_country">Select Your Country</string>
+    <string name="AgreeTC"><u>I here by accept the Terms and Conditions</u>.</string>
+    <string name="TermsCoditions">Terms &#38; Conditions</string>
+    <string name="select_language">Select Language</string>
+
+</resources>

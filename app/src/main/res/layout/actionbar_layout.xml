@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/realativeActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/toolbar_bg">
+        <FrameLayout
+            android:id="@+id/frameActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMenu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="visible"
+                    android:padding="10dp"
+                    android:layout_gravity="start|center"
+                    android:src="@mipmap/ic_menu" />
+
+
+                <TextView
+                    android:id="@+id/txt_actionbar_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SERVICIO"
+                    android:textColor="@color/colorWhite"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/backArrow"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:src="@drawable/back_btn"
+                    android:layout_gravity="end|center"
+                   />
+                <ImageView
+                    android:id="@+id/imgSearch"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:layout_gravity="end|center"
+                    android:visibility="gone"
+                    android:src="@drawable/search" />
+
+        </FrameLayout>
+
+
+
+
+</RelativeLayout>
+
